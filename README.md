@@ -30,7 +30,7 @@ Users should be able to:
 ### Screenshot
 
 ![Original view of the page](images/original-state.png?raw=true "Title") 
-![Warning for invalid email](images/validation-warining-state.png?raw=true "Title") 
+![Warning for invalid email](images/validation-warning-state.png?raw=true "Title") 
 ![Successful Signup Feedback](images/successful-signup-state.png?raw=true "Title") 
 
 ### Link
