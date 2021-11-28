@@ -1,12 +1,58 @@
-# sign-up-page
-Sign Up Page Challenge from Frontend Mentor
+# Frontend Mentor - Intro component with sign up form solution
 
-Link to the challenge https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1
+This is a solution to the [Intro component with sign up form challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-Gist of the challenge:
-1) Sign up page that will pop an error on the inputs if one of the fields are not filled in
-2) Layout change from mobile to desktop
+## Table of contents
 
-30/9/2021
-- Mobile version done
-- Desktop needs tweaking on the layout change
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Link](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+- [Author](#author)
+
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout for the site depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Receive an error message when the `form` is submitted if:
+  - Any `input` field is empty. The message for this error should say *"[Field Name] cannot be empty"*
+  - The email address is not formatted correctly (i.e. a correct email address should have this structure: `name@host.tld`). The message for this error should say *"Looks like this is not an email"*
+- User will get a succesful signup message if the submitted fields are properly filled
+
+### Screenshot
+
+![Original view of the page](images/original-state.png?raw=true "Title") 
+![Warning for invalid email](images/validation-warining-state.png?raw=true "Title") 
+![Successful Signup Feedback](images/successful-signup-state.png?raw=true "Title") 
+
+### Link
+
+- Live Site URL: (https://hidayahmsabah.github.io/sign-up-page/)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+
+### What I learned
+
+- Position image to place warning logo properly inside each field
+- Grid to properly align the items for it to be aesthetically pleasing
+- Using CSS custom properties and changing it using JS event listener
+
+## Author
+
+- Frontend Mentor - [@hidayahmsabah](https://www.frontendmentor.io/profile/hidayahmsabah)
